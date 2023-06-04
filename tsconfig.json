@@ -21,7 +21,9 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@layouts": ["./app/layouts/*"]
+      "@layouts": ["./app/layouts/*"],
+      "@stores": ["./lib/stores"],
+      "@machines": ["./lib/machines"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
